@@ -1,0 +1,47 @@
+.video-container-styles{
+    width:60%;
+    margin:0 auto;
+}
+
+.playlist-queue-styles{
+    box-shadow:0px 0px 1px white;
+    display:flex;
+    align-items:center;
+    overflow-x: auto;
+    background-color:#212836;
+}
+
+.playlist-queue-item-styles{
+    margin: 5px;
+    cursor: pointer;
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:4px solid transparent;
+}
+
+.current-playing-video-styles{
+  box-shadow:0px 0px 2px white;
+    transition: 0.2s;
+}
+
+.thumbnail-styles{
+    width: 100%;
+    height: 100%;
+}
+
+.video-styles{
+  width: 100%;
+  height: 500px;
+  object-fit: cover; 
+}
+
+@media screen and (max-width: 549px) {
+  .video-container-styles{
+    width:100%;
+  }
+}

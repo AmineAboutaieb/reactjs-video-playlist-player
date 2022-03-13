@@ -1,6 +1,3 @@
-import React from 'react'
-import styles from './styles.module.css'
+import { Playlist, goToNextVideo, goToPreviousVideo } from './playlist/Playlist'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { Playlist, goToPreviousVideo, goToNextVideo }
