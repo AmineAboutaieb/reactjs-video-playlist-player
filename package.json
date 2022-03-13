@@ -1,6 +1,6 @@
 {
   "name": "reactjs-video-playlist-player",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "A React component that allows you to play a list of videos",
   "author": "AmineAboutaieb",
   "license": "MIT",
