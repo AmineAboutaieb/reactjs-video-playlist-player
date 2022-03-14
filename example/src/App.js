@@ -13,23 +13,28 @@ function App() {
   const [list, setList] = useState([
     {
       thumbnail: 'https://via.placeholder.com/500/FFA500/FFFFFF',
-      url: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'
+      url: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+      imgAlt: 'alt img 1'
     },
     {
       thumbnail: 'https://via.placeholder.com/500/FF0000/FFFFFF',
-      url: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4'
+      url: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+      imgAlt: 'alt img 2'
     },
     {
-      thumbnail: '',
-      url: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4'
+      thumbnail: ' ',
+      url: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+      imgAlt: 'alt img 3'
     },
     {
       thumbnail: 'https://via.placeholder.com/500/FFFF00/000000',
-      url: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4'
+      url: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+      imgAlt: 'alt img 4'
     },
     {
       thumbnail: '',
-      url: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+      url: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+      imgAlt: 'alt img 5'
     }
   ])
 

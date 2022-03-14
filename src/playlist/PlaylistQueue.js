@@ -36,7 +36,7 @@ function PlaylistQueue({
                     ? videos[item].thumbnail
                     : defaultQueueItemPlaceholderThumbnail
                 }
-                alt='no img'
+                alt={videos[item].imgAlt}
                 className='thumbnail-styles'
               />
             </div>
