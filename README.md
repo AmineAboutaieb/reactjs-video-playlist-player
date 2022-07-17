@@ -23,6 +23,7 @@ This demo site was built using Github Pages [Demo site](https://amineaboutaieb.g
 
 ```jsx
 import React, { Component } from "react";
+import videoPlaceHolder from "./imagePlaceholder.png";
 
 import {
   Playlist,
@@ -68,7 +69,7 @@ function App() {
   const vidRef = createRef(null);
 
   const params = {
-    videos: list,
+    videos: videoList,
     autoPlay: true,
     showQueue: true,
     playForward: true,
